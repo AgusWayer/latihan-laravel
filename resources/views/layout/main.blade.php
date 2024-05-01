@@ -9,8 +9,9 @@
 </head>
 <body>
     @include('partials.navbar')
-    <div class="">
-        @yield('')
-    </div>
+    @yield('content')
+    @include('partials.footer')
+    <div></div>
+    <script src="{{asset('bootstrap/js/bootstrap.min.js')}}"></script>
 </body>
 </html>
